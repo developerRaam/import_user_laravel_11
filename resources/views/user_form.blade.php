@@ -41,7 +41,7 @@
 
                         <div class="mb-3">
                             <label for="name" class="form-label">Name:</label>
-                            <input type="text" class="form-control" name="name" maxlength="25" value="{{ old('name') }}">
+                            <input type="text" class="form-control" name="name" maxlength="25" value="{{ old('name') }}" placeholder="Enter name">
                             <div>
                                 <span class="text-danger">
                                     @error('name')
@@ -65,7 +65,7 @@
                         
                         <div class="mb-3">
                             <label for="email" class="form-label">Email:</label>
-                            <input type="email" class="form-control" name="email" value="{{ old('email') }}">
+                            <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="Enter email">
                             <div>
                                 <span class="text-danger">
                                     @error('email')
@@ -77,7 +77,7 @@
                         
                         <div class="mb-3">
                             <label for="street_address" class="form-label">Street Address:</label>
-                            <input type="text" class="form-control" name="street_address" value="{{ old('street_address') }}">
+                            <input type="text" class="form-control" name="street_address" value="{{ old('street_address') }}" placeholder="Enter street adress">
                             <div>
                                 <span class="text-danger">
                                     @error('street_address')
@@ -89,7 +89,7 @@
                         
                         <div class="mb-3">
                             <label for="city" class="form-label">City:</label>
-                            <input type="text" class="form-control" name="city" value="{{ old('city') }}">
+                            <input type="text" class="form-control" name="city" value="{{ old('city') }}" placeholder="Enter city">
                             <div>
                                 <span class="text-danger">
                                     @error('city')
